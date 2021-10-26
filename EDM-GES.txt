@@ -1,0 +1,58 @@
+javascript:alert('EDM-GES');var w = window.open("");w.document.write('
+<title>EDM-GES</title>
+&lt;style><br>
+span.a{font-family: Arial, sans-serif; font-size: 13px;} /* Emarsys standard auto-font */<br>
+span.b{font-family: Arial; font-size: 13px;} /* Emarsys standard auto-font */<br>
+span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */<br>
+span.d{font-family: Arial;font-size: 16px;} /* emphasized WORDS font */<br>
+span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */<br>
+ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;}<br>
+#gap {width: 100%; height: 50px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */<br>
+p {margin: 16px;text-decoration: none;} /* space between text and border */<br>
+img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */<br>
+table {width:100vw;} /* make table fit screen size */<br>
+&lt;/style><br>
+<br>
+&lt;meta charset="utf-8" />&lt;meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />&lt;meta content="True" name="HandheldFriendly" /><br>
+&lt;&#33;--[if IE]><br>
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+ &lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">&lt;/script><br>
+ &lt;script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">&lt;/script><br>
+ &lt;link href="IEStyleSheet.css" rel="stylesheet" /><br>
+&lt;&#33;[endif]--><br>
+<br>
+&lt;&#33;--[if &#33;IE]> --><br>
+ &lt;link media="only screen" type="text/css" rel="stylesheet" href="StyleSheet.css" /><br>
+ &lt;link media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" type="text/css" rel="stylesheet" href="MobileStyleSheet.css" /><br>
+&lt;&#33;-- &lt;&#33;[endif]--><br>
+<br>
+&lt;&#33;--Emarsys script start --><br>
+&lt;table>    &lt;tbody>&lt;tr><br>
+&lt;td colspan="3">&lt;img src="http://image.mrcsurvey.com/custloads/271723802/archive/SIM/SIMalum2.png" height="150" width="806"/><br>
+&lt;/td><br>
+&lt;/tr>    &lt;/tbody>&lt;/table><br>
+<br>
+&lt;div id="gap">&lt;/div><br>
+<br>
+&lt;table>    &lt;tbody>&lt;tr><br>
+&lt;td><br>
+&lt;p>&lt;span class="a">&lt;span class="b"> Dear $First Name$,&lt;br />&lt;br />&lt;/span>&lt;/span>&lt;/p><br>
+&lt;div style="text-align: center;">&lt;b>&lt;span style="font-size: 17pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">SIMGE A&lt;/span>&lt;span style="font-size: 11.5pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">LUMNI &lt;/span>&lt;span style="font-size: 17pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">S&lt;/span>&lt;span style="font-size: 11.5pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">URVEY &lt;/span>&lt;span style="font-size: 17pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">2021&lt;/span>&lt;/b>&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;p style="text-indent: 16px;">&lt;span class="a">&lt;span class="b">The Singapore Institute of Management Global Education (SIMGE) is conducting an online survey from &lt;b>21 June to 30 August 2021&lt;/b>, to understand how your career have progressed since graduating 5 years ago. We would also like to gather your feedbacks on satisfaction with SIMGE’s quality of education, and gain insights on your level of interest and involvement with SIMGE alumni activities.&lt;/span>&lt;/span>&lt;br />&lt;/p><br>
+<br>
+&lt;p>&lt;span class="a">&lt;span class="b">Your participation will be very helpful for this research. This short interview is for research purposes only and your responses and identity will be kept in the strictest confidence.&lt;/span>&lt;/span>&lt;br />&lt;/p><br>
+<br>
+&lt;p>&lt;span class="a">&lt;span class="b">Please click on the link to take the survey, and login using this password: &lt;b>&lt;span class="e">$Phone$&lt;/span>&lt;/b>&lt;br /><br>
+&lt;a href="https://sg.mrcsurvey.com/simalumni2021">&lt;b>&lt;u>&lt;span class="d">Take the survey&lt;/span>&lt;/u>&lt;/a>&lt;/b>&lt;/span>&lt;/span>&lt;/p><br>
+<br>
+&lt;p>&lt;span class="a">&lt;span class="b">Or copy and paste the URL below into your internet browser: &lt;br /><br>
+&lt;a href="https://sg.mrcsurvey.com/simalumni2021">&lt;b>&lt;span class="d">https://sg.mrcsurvey.com/simalumni2021&lt;/span>&lt;/b>&lt;/a>&lt;/span>&lt;/span>&lt;/p><br>
+<br>
+&lt;p>&lt;span class="a">&lt;span class="b">Follow the link to opt out of future emails: &lt;br /><br>
+&lt;a href="mailto:SIMfeedback@mediacorp.com.sg?subject=&#37;3CFeedback&#37;3E&#37;3A&body=&#37;0A&#37;0A">&lt;b>&lt;u>&lt;span class="c">Click here to unsubscribe&lt;/span>&lt;/u>&lt;/b>&lt;/a>&lt;/span>&lt;/span>&lt;/p><br>
+<br>
+&lt;p>&lt;span class="a">&lt;span class="b">There will be a lucky draw of gift items below to those who participate in this survey. &lt;i>(Terms and conditions apply)&lt;/i>&lt;/span>&lt;/span>&lt;/p><br>
+&lt;/td><br>
+&lt;/tr>     &lt;/tbody>&lt;/table><br>
+');
