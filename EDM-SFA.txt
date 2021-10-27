@@ -1,0 +1,62 @@
+javascript:alert('edm-SFA');var w = window.open("");w.document.write('
+<title>edm-SFA</title>
+&lt;style><br>
+.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}<br>
+.bol {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-align:center;}<br>
+.nor {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;text-align:left;}<br>
+#gap {width: 900; height: 11px; border: 0px transparent;background: transparent&#33;important;}<br>
+.wrap {display:flex;-webkit-flex-direction:column;flex-direction:column;padding:23px;margin:auto}<br>
+.bann {max-height:22.4411508282476vw;max-width:90vw;height:159.58151700087183px;width:640px;background-size:contain;background-position:center;background-repeat:no-repeat;border:0 solid transparent;border-radius:28px;margin-top:12px;margin:auto}<br>
+.card {display:flex;flex-direction:column;margin:auto;max-width:90vw;width:640px;background-color:#transparent;margin-top:42px;margin-bottom:12px;border:0 solid transparent}<br>
+p {margin: 11px;}<br>
+ul.a{display: inline-block; list-style-type: none; text-align: left;font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;}<br>
+&lt;/style><br>
+<br>
+&lt;div class="wrap"><br>
+&lt;div class="bann">&lt;a href="#">&lt;img src="http://image.mrcsurvey.com/custloads/271723802/archive/SFA/MRChead.png" style="width: 642px; margin: 1px;" border="0" align="left" />&lt;/a>&lt;/div><br>
+&lt;br /><br>
+&lt;div class="card"><br>
+&lt;&#33;-- Message Start --><br>
+&lt;div class="bol" style="text-align: center;">SFA Customer Satisfaction Survey 2021&lt;br />&lt;br />&lt;/div><br>
+&lt;div class="nor"> Dear Sir/Madam,&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">Media Research Consultants Pte Ltd, an independent research company, has been commissioned by Singapore Food Agency (SFA) to conduct the SFA Customer Satisfaction Survey 2021.&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">We would like to inform you that you have been invited to participate in the survey. Please use the following login key to access the survey.&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">Your login key:&lt;b style="color: blue;">$Phone$&lt;/b>&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">&lt;a href="https://sg.mrcsurvey.com/SFACSS2021">&lt;b style="text-decoration: none; color: rgb(0, 0, 255);">Click here&lt;/b>&lt;/a>&lt;b>/ scan the QR code below to complete the 20 mins survey. This survey will close on 8 October 2021.&lt;br />&lt;br />&lt;/b>&lt;/div>&lt;b><br>
+<br>
+&lt;div class="nor">Please note that you will require internet access to administer the survey.&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">Please be assured that all information collected will be kept strictly confidential and be used only for the purpose of the study. The information will be analyzed at an aggregated level, and with no individual person/ organization will be identified in the findings of the study.&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">If you have any queries or require more information with regards to this survey, please contact<br>
+&lt;ul class="a"><br>
+•&lt;sup> &lt;/sup> Ms Jennifer Lim from Media Research Consultants Pte Ltd at &lt;br />&lt;u><br>
+&lt;a style="color: blue;" href="mailto:Enquiry.SFACSS21@mediacorp.com.sg">Enquiry.SFACSS21@mediacorp.com.sg&lt;/a>&lt;/u> or Tel: 6350 3958&lt;br /><br>
+•&lt;sup> &lt;/sup> Ms Sharmely Yadav (Manager, Service Quality), SFA at  &lt;br />&lt;u><br>
+&lt;a style="color: blue;" href="mailto:Sharmely_YADAV@sfa.gov.sg">Sharmely_YADAV@sfa.gov.sg&lt;/a>&lt;/u>  or Tel:  6805 2617&lt;br />&lt;br /><br>
+&lt;/ul>&lt;/div><br>
+<br>
+&lt;div class="nor">As a token of appreciation, a S$10 voucher will be provided to those who complete the survey&#33;<br>
+&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">Note that the vouchers will only be provided to the &lt;u>&lt;b>first 1000 responses&lt;/b>&lt;/u> after the survey closes.<br>
+&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">We look forward to your support and participation in this survey<br>
+&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor" style="float: left; width: 49&#37;; height: 400px; background-color: transparent; position: relative;"><br>
+Thank you,&lt;br />&lt;b>Media Research Consultants&lt;/b>&lt;br /><br>
+&lt;/div><br>
+&lt;div class="nor"><br>
+&lt;a href="#" target="_blank"><br>
+&lt;img align="right" border="0" style="position: relative; float: right; width: 100px; margin: 0px 100px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/SFA/QRcode1.png" />&lt;/a><br>
+&lt;/div><br>
+<br>
+&lt;&#33;-- Message END --><br>
+&lt;/b>&lt;/div>&lt;/div><br>
+');
