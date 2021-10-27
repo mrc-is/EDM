@@ -1,0 +1,77 @@
+javascript:alert('Grab ThankYouDad');var w = window.open("");w.document.write('
+<title>Grab ThankYouDad</title>
+&lt;style><br>
+.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}<br>
+.bol {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-align:center;}<br>
+.nor {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;text-align:left;}<br>
+#gap {width: 900; height: 11px; border: 0px transparent;background: transparent&#33;important;}<br>
+.wrap {display:flex;-webkit-flex-direction:column;flex-direction:column;padding:23px;margin:auto}<br>
+.bann {max-height:22.4411508282476vw;max-width:90vw;height:159.58151700087183px;width:640px;background-size:contain;background-position:center;background-repeat:no-repeat;border:0 solid transparent;border-radius:28px;margin-top:12px;margin:auto}<br>
+.card {display:flex;flex-direction:column;margin:auto;max-width:90vw;width:640px;background-color:#transparent;margin-top:42px;margin-bottom:12px;border:0 solid transparent}<br>
+p {margin: 11px;}<br>
+&lt;/style><br>
+<br>
+&lt;div class="wrap"><br>
+&lt;div class="bann">&lt;a href="#">&lt;img align="left" border="0" style="width: 642px; margin: 1px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/dad2020/Untitled3.png" />&lt;/a>&lt;/div><br>
+&lt;br /><br>
+&lt;div class="card"><br>
+&lt;&#33;-- Message Start --><br>
+&lt;div class="nor"> Dear $First Name$,&lt;br />&lt;br />&lt;/div><br>
+&lt;div style="text-align: left;" class="bol">“CELEBRATING FATHERS” SURVEY&lt;br />&lt;br />&lt;/div><br>
+&lt;div class="nor">Congratulations for being among the first 200 people who completed the &lt;b>“CELEBRATING FATHERS”&lt;/b> survey &lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor">As a token of our appreciation, please use the following code to redeem your  &lt;b>S$10 GrabFood voucher&lt;/b>.&lt;br />&lt;br />&lt;/div><br>
+<br>
+&lt;div class="nor"><br>
+&lt;b>Please kindly acknowledge this email for the voucher code to be activated&lt;/b>.&lt;br /><br>
+&lt;i>*Terms and conditions apply&lt;/i>.&lt;br />&lt;br /><br>
+&lt;p>Instruction on how to use the code is included below. &lt;b>Enjoy&#33;&lt;/b>&lt;br />&lt;/p><br>
+&lt;p style="font-size: 30px; color: rgb(0, 51, 255);">Voucher Code: $evouche$&lt;br />&lt;/p><br>
+&lt;/div><br>
+&lt;div class="nor"><br>
+Warm regards,&lt;br />&lt;br />&lt;b>The Celebrating Fathers Team&lt;/b>&lt;br /><br>
+&lt;/div><br>
+<br>
+&lt;table> &lt;tbody>&lt;tr>&lt;td><br>
+&lt;a href="#" target="_blank"><br>
+&lt;img align="left" border="0" style="width: 650px; margin: 1px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/dad2020/image005.png" />&lt;/a><br>
+&lt;/td>&lt;/tr> &lt;/tbody>&lt;/table><br>
+<br>
+&lt;div class="nor"><br>
+&lt;b>How to use a GrabFood voucher code?&lt;/b>&lt;br />&lt;br /><br>
+Download the Grab app from the Apple App store or the Google Play store and follow the steps below:<br>
+&lt;/div><br>
+<br>
+&lt;div class="nor" align="left; margin: 16px;" style="display: block;"><br>
+&lt;ol style="line-height: 25px;"><br>
+&lt;li>On the GrabFood App order screen, select your food order and add to cart.&lt;/li><br>
+&lt;li>At the Order Summary page, tap ‘Offer’ under Payment Method.&lt;/li><br>
+&lt;li>Key in or copy the voucher code provided in this email and click on &#39;Use Now&#39;.&lt;/li><br>
+&lt;li>Tap &#39;Place Order&#39; and enjoy your discount.&lt;/li><br>
+&lt;li>Upon successful order, you’ll automatically receive a notification.&lt;/li><br>
+&lt;/ol><br>
+&lt;/div><br>
+<br>
+&lt;table>        &lt;tbody>&lt;tr>&lt;td><br>
+&lt;a href="#" target="_blank"><br>
+&lt;img align="left" border="0" style="width: 90&#37;; margin: 1px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/evoucher/GrabFoodFoot2.png" />&lt;/a><br>
+&lt;/td>&lt;/tr>       &lt;/tbody>&lt;/table><br>
+&lt;p> &lt;/p><br>
+&lt;div class="tnc" align="left; margin: 16px;" style="display: block;"><br>
+Terms &amp; Conditions&lt;br />&lt;br /><br>
+* The validity period for this GrabFood voucher code is 1 month from the date this email is sent.&lt;br /><br>
+* Valid for use on 1 GrabFood order only.&lt;br /><br>
+* Rewards must be redeem within the stipulated period. No extension of validity allowed.&lt;br /><br>
+* Reward cannot be stacked, clubbed or combined for use in a single transaction.&lt;br /><br>
+* Reward cannot be used in conjunction with other discounts and promotions.&lt;br /><br>
+* Reward is non-transferable, non-refundable and non-exchangeable for cash/credit-in-kind. Any unconsumed value shall be forfeited.&lt;br /><br>
+* Grab reserves the right to vary and amend these terms and conditions at any time without prior notice.&lt;br /><br>
+&lt;br />&lt;br /><br>
+&lt;/div><br>
+<br>
+&lt;&#33;-- Message END --><br>
+&lt;/div><br>
+&lt;div class="bann">&lt;a href="#">&lt;img align="left" border="0" style="width: 650px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/dad2020/foot.png" />&lt;/a>&lt;/div><br>
+&lt;br /><br>
+&lt;/div><br>
+');
