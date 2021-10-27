@@ -1,0 +1,65 @@
+javascript:alert('edm-RMT');var w = window.open("");w.document.write('
+<title>edm-RMT</title>
+&lt;style><br>
+span.a{font-family: Arial, sans-serif; font-size: 13px;} /* Emarsys standard auto-font */<br>
+span.b{font-family: Arial; font-size: 13px;} /* Emarsys standard auto-font */<br>
+span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */<br>
+span.d{font-family: Arial;font-size: 16px;} /* emphasized WORDS font */<br>
+span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */<br>
+ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;}<br>
+#gap {width: 100&#37;; height: 50px; border: 0px transparent;background: transparent&#33;important;} /* space between logo and first line */<br>
+p {margin: 16px;text-decoration: none;} /* space between text and border */<br>
+img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */<br>
+table {width:100vw;} /* make table fit screen size */<br>
+&lt;/style><br>
+&lt;meta charset="utf-8" />&lt;meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />&lt;meta content="True" name="HandheldFriendly" /><br>
+&lt;&#33;--[if IE]><br>
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+ &lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">&lt;/script><br>
+ &lt;script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">&lt;/script><br>
+ &lt;link href="IEStyleSheet.css" rel="stylesheet" /><br>
+&lt;&#33;[endif]--><br>
+<br>
+&lt;&#33;--[if &#33;IE]> --><br>
+ &lt;link media="only screen" type="text/css" rel="stylesheet" href="StyleSheet.css" /><br>
+ &lt;link media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" type="text/css" rel="stylesheet" href="MobileStyleSheet.css" /><br>
+&lt;&#33;-- &lt;&#33;[endif]--><br>
+
+&lt;&#33;--[if IEMobile]> <br>
+&lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">&lt;/script><br>
+&lt;script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">&lt;/script><br>
+&lt;link href="MobileStyleSheet.css" rel="stylesheet" /><br>
+&lt;&#33;[endif]--><br>
+&lt;&#33;--Emarsys script start --><br>
+&lt;table style="max-width:100vw; width:900;"><br>
+&lt;tbody>&lt;tr><br>
+&lt;td align="justify">&lt;img width="100&#37;" id="section_image_1" src="http://image.mrcsurvey.com/custloads/271723802/archive/music/MRChead.png" border="0" />&lt;/td><br>
+&lt;/tr>    &lt;/tbody>&lt;/table><br>
+<br>
+&lt;div id="gap">&lt;/div><br>
+<br>
+&lt;table style="max-width:100vw; width:900;">    &lt;tbody>&lt;tr><br>
+&lt;td><br>
+&lt;p>&lt;span class="a">Dear $First Name$,&lt;br />&lt;br />&lt;/span>&lt;/p><br>
+&lt;div style="text-align: left;">&lt;p>&lt;b>&lt;span class="d">ENGLISH RADIO MUSIC TEST 2021/2022.&lt;br />&lt;br />&lt;/span>&lt;/b>&lt;/p>&lt;/div><br>
+&lt;p>&lt;span class="a">Thank you for your interest in our Radio Music Test.&lt;/span>&lt;br />&lt;/p><br>
+&lt;p>&lt;span class="a">Please access the online survey via the link below:&lt;/span>&lt;br />&lt;/p><br>
+&lt;p>&lt;span class="a">&lt;b class="a">&lt;a href="https://sg.mrcsurvey.com/RMT/JulEnglish1">&lt;u>&lt;span class="c">START SURVEY&lt;/span>&lt;/u>&lt;/a>&lt;/b>&lt;/span>&lt;br />&lt;br />&lt;/p><br>
+&lt;/td><br>
+&lt;/tr><br>   
+&lt;/tbody>&lt;/table><br>
+<br>
+&lt;table style="max-width:100vw; width:900;">    &lt;tbody>&lt;tr><br>
+&lt;td><br>
+&lt;p>&lt;span class="a">We would appreciate if you could complete the survey by &lt;b>&lt;u>23&lt;/u>&lt;sup>rd &lt;/sup>&lt;u>July 2021&lt;/u>&lt;/b>.&lt;/span>&lt;/span>&lt;br />&lt;/p><br>
+&lt;p>&lt;span class="a">You will be awarded with a &lt;b>S$30 GrabFood voucher&lt;/b> which will be sent to your registered email address by mid-February 2021 upon successful completion of this online survey.&lt;/span>&lt;br />&lt;/p><br>
+&lt;p>&lt;span class="a">There will be guiding instructions provided throughout the survey. However, if you do encounter any technical issues, please call us at 6819 6258 or email us &lt;b class="a">&lt;a href="mailto:musictest@mediacorp.com.sg?subject=&#37;3CFeedback&#37;3E&#37;3A&body=&#37;0A&#37;0AThank&#37;20you.&#37;0A$Email$">&lt;u>&lt;span class="c">here.&lt;/span>&lt;/u>&lt;/a>&lt;/b>&lt;/span>&lt;br />&lt;/p><br>
+&lt;p>&lt;span class="a">Thank you in advance for your time and participation.&lt;br />&lt;/span>&lt;/p><br>
+&lt;/td><br>
+&lt;/tr><br>
+&lt;/tbody>&lt;/table><br>
+<br>
+&lt;div id="gap" style="height: 200px;">&lt;/div><br>
+<br>
+&lt;&#33;--Emarsys script end --><br>
+');
