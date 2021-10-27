@@ -1,0 +1,62 @@
+javascript:alert('evouche-DairyFarm');var w = window.open("");w.document.write('
+<title>evouche-DairyFarm</title>
+&lt;&#33;DOCTYPE html><br>
+&lt;html><br>
+&lt;head><br>
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"><br>
+&lt;style><br>
+.tnc {font-family:Arial, Helvetica, sans-serif;font-size:10px;font-style: italic;font-weight:bold;text-align:left;}<br>
+.bol {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-align:center;}<br>
+.nor {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;text-align:left;}<br>
+#gap {width: 900; height: 11px; border: 0px transparent;background: transparent&#33;important;}<br>
+.wrap {display:flex;-webkit-flex-direction:column;flex-direction:column;padding:23px;margin:auto}<br>
+.bann {max-height:22.4411508282476vw;max-width:90vw;height:159.58151700087183px;width:640px;background-size:contain;background-position:center;background-repeat:no-repeat;border:0 solid transparent;border-radius:28px;margin-top:12px;margin:auto}<br>
+.card {display:flex;flex-direction:column;margin:auto;max-width:90vw;width:640px;background-color:#ede7f6;margin-top:42px;margin-bottom:12px;border:0 solid transparent}<br>
+p {margin: 16px;}<br>
+&lt;/style><br>
+&lt;/head><br>
+&lt;body><br>
+&lt;div class="wrap"><br>
+&lt;div class="bann"><br>
+&lt;a href="#">&lt;img src="https://image.mrcsurvey.com/custloads/271723802/archive/evoucher/MRChead3.png" border="0" align="left" />&lt;/a>&lt;/div><br>
+&lt;br><br>
+&lt;div class="card"><br>
+&lt;&#33;-- Message Start --><br>
+&lt;div class="nor"> Dear $First Name$,&lt;br>&lt;br>&lt;/div><br>
+&lt;div class="bol" style="text-align: left;">Thank you for participating in the $Survey$ survey.&lt;br>&lt;br>&lt;/div><br>
+<br>
+&lt;div class="nor">Please find the shopping voucher here.&lt;br><br>
+Present this e-voucher to the cashier upon purchase.&lt;br>&lt;br>&lt;/div><br>
+<br>
+&lt;div class="nor" style="font-size: 30px;">$eValue$&lt;br>&lt;br>&lt;/div><br>
+<br>
+&lt;div class="nor">Please note by clicking Acknowledgement Box below, you acknowledge receipt of this eVoucher.&lt;/div><br>
+&lt;div class="nor">&lt;br>&lt;/div><br>
+<br>
+&lt;table>    &lt;tbody>&lt;tr>&lt;td><br>
+&lt;a href="http://bwipjs-api.metafloor.com/?bcid=code128&amp;text=$evouche$&amp;includetext" target="_blank"><br>
+&lt;img align="left" border="0" style="width: 40&#37;; margin: 16px;" src="http://image.mrcsurvey.com/custloads/271723802/archive/evoucher/Ackn4.png">&lt;/a><br>
+&lt;/td>&lt;/tr>   &lt;/tbody>&lt;/table><br>
+<br>
+&lt;div class="nor" style="font-size: 20px;">&lt;br>&lt;br>&lt;/div><br>
+&lt;div class="tnc"><br>
+Terms &amp; Conditions&lt;br>&lt;br><br>
+* This e-voucher expires 1 month from the date of this email.&lt;br><br>
+* This e-voucher can only be redeemed upon presenting this email.&lt;br><br>
+* This e-voucher is redeemable at all Giant stores, Cold Storage, Jasons, Market Place, Guardian, and 7-Eleven outlets.&lt;br><br>
+* This e-voucher is valid only within Singapore and its value is equivalent to the Singapore currency as stated in the email.&lt;br><br>
+* This e-voucher is not refundable and cannot be replaced if expired.&lt;br><br>
+* This e-voucher is not refundable or exchangeable for cash and any unused balance will not be refunded.&lt;br><br>
+* MRC reserves the right to vary and amend these terms and conditions at any time without prior notice.&lt;br><br>
+“ Consumer advisory — Cold Storage Singapore (1983) Pte Ltd, &lt;br>the holder of Gift Voucher does not require the approval of the<br>
+Monetary Authority of Singapore. Consumers &lt;br>(users) are advised to read the terms and conditions carefully. ”<br>
+&lt;br>&lt;br><br>
+&lt;/div><br>
+&lt;br><br>
+<br>
+&lt;&#33;-- Message END --><br>
+&lt;/div><br>
+&lt;div class="bann">&lt;a href="#">&lt;img src="http://image.mrcsurvey.com/custloads/271723802/archive/evoucher/Footd3.png" border="0" align="left" />&lt;/a>&lt;/div><br>
+&lt;/div><br>
+&lt;/body>&lt;/html><br>
+');
