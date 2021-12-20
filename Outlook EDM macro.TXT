@@ -1,8 +1,8 @@
+' Save this macro as *.BAS and import via VisualBasic Editor
+
 Sub WinXplorer()
 Shell "Explorer.exe" & " " & "C:\Users\SAIFUL\Desktop", vbNormalFocus
 End Sub
-
-
 
 Sub CreateFromTemplate()
 Dim MyItem As Outlook.MailItem
