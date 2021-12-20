@@ -1,5 +1,5 @@
 Sub WinXplorer()
-Shell "Explorer.exe", vbNormalFocus
+Shell "Explorer.exe" & " " & "C:\Users\SAIFUL\Desktop", vbNormalFocus
 End Sub
 
 
