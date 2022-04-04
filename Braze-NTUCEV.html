@@ -1,0 +1,81 @@
+<style>
+.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
+.bol {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-align:center;}
+.nor {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;text-align:left;}
+#gap {width: 900; height: 11px; border: 0px transparent;background: transparent!important;}
+.wrap {display:flex;-webkit-flex-direction:column;flex-direction:column;padding:23px;margin:auto}
+.bann {max-height:22.4411508282476vw;max-width:90vw;height:159.58151700087183px;width:640px;background-size:contain;background-position:center;background-repeat:no-repeat;border:0 solid transparent;border-radius:28px;margin-top:12px;margin:auto}
+.card {display:flex;flex-direction:column;margin:auto;max-width:90vw;width:640px;background-color:#transparent;margin-top:42px;margin-bottom:12px;border:0 solid transparent}
+p {margin: 11px;}
+</style>
+
+<div class="wrap">
+<table style="max-width: 100vw; width: 900px;"> <tbody><tr>
+<div class="bann"><a href="#">
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6245766f93b1c05464fb8f53/original.png"  width="700" border="0" align="left" /></a></div>
+</tr> </tbody></table>
+<div id="gap"></div>
+<table style="max-width: 100vw; width: 700px;"> <tbody><tr>
+<div class="card">
+<!-- Message Start -->
+<div class="nor">Dear {{ ${first_name} | default: 'Sir/Mdm' }},<br /><br /></div>
+<div class="bol" style="text-align: left;">Thank you for your recent participation in English Radio Music Test 2021/2022.<br /><br /></div>
+
+<div class="nor">We would like to present you a <b>$30 NTUC Fairprice vouchers</b> as a token of appreciation. Note that the voucher URLs will be in denominations of S$10.<br /><br /></div>
+
+<div class="nor">
+<b>Please kindly acknowledge this email</b>.<br />
+<i>*Terms and conditions apply</i>.<br /><br />
+<p style="font-size: 17px; color:#0033ff;">
+URL 1: {{custom_attribute.${ntucEV1}}}<br /><br />
+URL 2: {{custom_attribute.${ntucEV2}}}<br /><br />
+URL 3: {{custom_attribute.${ntucEV3}}}<br /></font></p>
+</div>
+<br />
+<div class="nor">
+<b>How to use a NTUC Fairprice voucher code?</b><br /><br />
+</div>
+
+<div style="display: block;" align="left; margin: 16px;" class="nor">
+<ol style="line-height: 25px;">
+<li>Tap on the URL provided & select <b>Store this voucher</b></li>
+<li>Log in to your <b>FairPrice account</b></li>
+<li>View the e-voucher stored in <b>"Vouchers"</b> under your account</li>
+<li>Tap <b>Use now</b> to scan the QR code for <b>in-store payment</b> or tap <b>Add</b> under Voucher code for <b>online</b> order checkout.</li>
+</ol>
+</div>
+
+<div class="bol" align="left;"><span style="color:#4472C4;">
+Note: Further instructions on how to use the e-voucher and terms & conditions can be found upon clicking on the URL</span>
+</div>
+
+<table>       <tbody><tr><td>
+<a target="_blank" href="#">
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/624ab58593b1c01023df6440/original.png" style="width:90%; margin: 1px;" border="0" align="left" /></a>
+</td></tr>      </tbody></table>
+<p>&nbsp;</p>
+
+<div style="display: block;" align="left; margin: 16px;" class="tnc">
+Terms &amp; Conditions<br /><br />
+* This e-voucher expires on 24 February 2023.<br />
+* Expressed in Singapore dollars.<br />
+* Not valid for purchase of lottery products.<br />
+* Not valid for purchase at Unity Changi Airport.<br />
+* Not valid for redemption at Cheers and FairPrice Xpress outlets.<br />
+* Not-exchangeable for cash and/or gift vouchers.<br />
+* Non-refundable and/or non- exchangeable in event of loss, theft or damage.<br />
+* Unused amount/value are not refundable.<br />
+* Non-renewable upon expiry. Expiry date is final.<br />
+* Not valid for checkout via Scan & Go.<br />
+* Voucher does not offset service and delivery fees on FairPrice Online orders.<br />
+<br /><br />
+</div>
+
+<!-- Message Footr Begin -->
+</div>
+</tr> </tbody></table>
+<table style="max-width: 100vw; width: 900px;"> <tbody><tr>
+<div class="bann"><a href="#"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/61a7affcfd3724266d3aa941/original.png"  width="700" border="0" align="left" /></a></div>
+</tr> </tbody></table>
+<!-- Message Footr End -->
+</div>
