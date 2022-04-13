@@ -1,95 +1,79 @@
 <style type="text/css">
-span.b{font-family: Arial; sans-serif; font-size: 13px;} /* Emarsys legacy */
+table {width:100vw; max-width: 100vw;font-family: Arial; font-size: 13px;} /* make table fit screen size */
+span.h{font-size: 17pt;font-weight: bold;font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-TITLE font */
 span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
-span.d{font-family: Arial;font-size: 16px;} /* emphasized WORDS font */
-span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */
-span.f{border-bottom: 3px double;}/* emphasized LOGINID font */ text double-underlined */
-span.g{font-size: 17pt; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font  */
-span.h{font-size: 12pt; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font */
-ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
+span.e{font-size: 14px;} /* emphasized WORDS */
+span.f{border-bottom: 3px double;} /* text double-underlined */
+ul.a{margin-left:34px; padding: 0;font-weight: bold;display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
 a.a{text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
 #gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
-p {margin: 16px;text-decoration: none;} /* space between text and border */
-p.a{line-height:1.3}
+p {margin: 16px;text-decoration: none;line-height:1.5;} /* space between text and border */
 img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
-table {width:100vw;} /* make table fit screen size */
+p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
 </style>
-<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" /><!--Emarsys script start -->
-<table style="max-width: 100vw; width: 900px;">
-<tbody><tr>
-<td colspan="3"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621f062f24957860cbce738f/original.png" /></td>
-</tr>
-</tbody></table>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" />
 
+<!-- Message Bannr Begin -->
+<table style="max-width: 100vw; width: 900px;"><tbody><tr><td>
+<div style="text-align: center;">
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621f062f24957860cbce738f/original.png" /></div>
+</td></tr></tbody></table>
 <div id="gap"></div>
+<!-- Message Bannr End -->
 
-<table style="max-width: 100vw; width: 900px;">
+<table style="width: 700px;">
 <tbody><tr>
 <td>
-<p><span class="b"> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</span></p>
+<p> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</p>
 
-<div style="text-align: center;"><b>
-<span class="g">SIMGE G</span><span class="h">raduate </span>
-<span class="g">E</span><span class="h">mployment </span>
-<span class="g">S</span><span class="h">urvey </span>
-<span class="g">2021-2022</span></b><br />
-</div>
+<p>
+<span class="h">SIMGE G<span style="font-size: 14pt;">raduate</span>
+ E<span style="font-size: 14pt;">mployment</span>
+ S<span style="font-size: 14pt;">urvey</span>
+ 2021-2022.
+</span><br />
+</p>
 
-<p><span class="b">The Singapore Institute of Management Global Education (SIMGE) is conducting an online survey from <b>3 March to 30 Apr 2022</b>, to understand how your degree has helped you in your chosen career, as well as to gather feedback on your course experience and gain insights on your plans for further studies. </span></p>
+<p>The Singapore Institute of Management Global Education (SIMGE) is conducting an online survey from <b>3 March to 30 Apr 2022</b>, to understand how your degree has helped you in your chosen career, as well as to gather feedback on your course experience and gain insights on your plans for further studies.</p>
 
-<p><span class="b">Your participation will be very helpful for this research. This short interview is for research purposes only and your responses and identity will be kept in the strictest confidence. </span></p>
+<p>Your participation will be very helpful for this research. This short interview is for research purposes only and your responses and identity will be kept in the strictest confidence.</p>
 
-<p><span class="b">Please click on the link to take the survey, and login using this password:<b><span class="e">{{custom_attribute.${password}}}</span></b><br />
-<a href="https://sg.mrcsurvey.com/simgesw22021"><b><u><span class="d">Take the survey</span></u></b></a></span></p>
+<p>Please click on the link to take the survey, and login using this password:<b><span class="e">{{custom_attribute.${password}}}</span></b><br />
+<a class="a" href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">Take the survey</span></a></p>
 
-<p class="a"><span class="b">Or copy and paste the URL below into your internet browser:</span><br />
-<a class="a" href="https://sg.mrcsurvey.com/simgesw22021"><span class="d">https://sg.mrcsurvey.com/simgesw22021</span></a></p>
+<p>Or copy and paste the URL below into your internet browser:<br />
+<a class="a" href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">https://sg.mrcsurvey.com/simgesw22021</span></a></p>
 
-<p></p>
+<p>Follow the link to opt out of future emails:<br />
+<a class="a" href="mailto:SIMfeedback@mediacorp.com.sg?subject=%3CUnsubscribe%3E%3A&amp;body=%0A%0A">
+<span class="e">Click here to unsubscribe</span></a></p>
 
-<p class="a"><span class="b">Follow the link to opt out of future emails:<br />
-<a href="mailto:SIMfeedback@mediacorp.com.sg?subject=%3CUnsubscribe%3E%3A&amp;body=%0A%0A"><u><span class="c">Click here to unsubscribe</span></u></a></span></p>
+<p>There will be a lucky draw of gift items below to those who participate in this survey. <i>(Terms and conditions apply)</i></p>
 
-<p><span class="b">There will be a lucky draw of gift items below to those who participate in this survey. <i>(Terms and conditions apply)</i></span></p>
+</td></tr></tbody></table>
 
-</td>
-</tr>
-</tbody></table>
 
-<table style="max-width: 100vw; width: 900px;">
-<tbody><tr>
-<td>
-<div>
-<ul class="a">
-<strong><span class="b">
+<div style="text-align: left;"><ul class="a">
 1 set<sup> </sup>Microsoft Surface Pro 7 (2-in-1 Laptop)<br>
 1 set<sup> </sup>Samsung Galaxy S21+ 5G<br>
 1 set<sup> </sup>Samsung Galaxy Tab S7 WIFI<br>
 1 set<sup> </sup>GoPro HERO 9 Black<br>
-1 set<sup> </sup>Sony WH-1000XM4<br>
-</span></strong>
-</ul>
-</div>
-</td>
-</tr>
-</tbody></table>
+1 set<sup> </sup>Sony WH-1000XM4
+</ul></div>
 
-<table style="max-width: 100vw; width: 900px;">
-<tbody><tr>
-<td>
-<span class="b">
+
+<table style="width: 700px;">
+<tbody><tr><td>
 <p>Warm regards,</p>
-
 <p>
 Media Research Consultants (MRC), the appointed research company by SIMGE<br />
 1 Stars Avenue, Singapore 138507<br />
 Tel: 6819 6258<br />
 Email: SIMfeedback@mediacorp.com.sg<br />
-</span></p>
-
-</td>
-</tr>
-</tbody></table>
+</p>
+</td></tr></tbody></table>
 
 <div id="gap" style="height: 10px;"></div>
-<!--Emarsys script end -->
+<!-- Message Footr Begin -->
+
+<!-- Message Footr End -->
