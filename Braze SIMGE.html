@@ -1,29 +1,30 @@
 <style type="text/css">
-table {width:100vw; max-width: 100vw;font-family: Arial; font-size: 13px;} /* make table fit screen size */
+img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
+table {width:100vw; max-width: 100vw;font-family: Arial; font-size: 13px;width: 700px;} /* make table fit screen size */
 span.h{font-size: 17pt;font-weight: bold;font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-TITLE font */
 span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
 span.e{font-size: 14px;} /* emphasized WORDS */
+span.a{font-size: 17px; color:#0032A6;} /* eVoucher URL-codes*/
 span.f{border-bottom: 3px double;} /* text double-underlined */
-ul.a{margin-left:34px; padding: 0;font-weight: bold;display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
-a.a{text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
+ol {line-height: 25px;} /* format for prize list */
+ul {margin-left:34px; padding: 0;font-weight: bold;display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
+a {text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
 #gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
 p {margin: 16px;text-decoration: none;line-height:1.5;} /* space between text and border */
-img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
+p.list {} /* space between text and border */
 p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
 </style>
 <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" />
 
 <!-- Message Bannr Begin -->
-<table style="max-width: 100vw; width: 900px;"><tbody><tr><td>
+<table><tbody><tr><td>
 <div style="text-align: center;">
 <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621f062f24957860cbce738f/original.png" style="width:700px;"/></div>
 </td></tr></tbody></table>
 <div id="gap"></div>
 <!-- Message Bannr End -->
 
-<table style="width: 700px;">
-<tbody><tr>
-<td>
+<table><tbody><tr><td>
 <p> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</p>
 
 <p>
@@ -39,21 +40,18 @@ p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: ital
 <p>Your participation will be very helpful for this research. This short interview is for research purposes only and your responses and identity will be kept in the strictest confidence.</p>
 
 <p>Please click on the link to take the survey, and login using this password:<b><span class="e">{{custom_attribute.${password}}}</span></b><br />
-<a class="a" href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">Take the survey</span></a></p>
+<a href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">Take the survey</span></a></p>
 
 <p>Or copy and paste the URL below into your internet browser:<br />
-<a class="a" href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">https://sg.mrcsurvey.com/simgesw22021</span></a></p>
+<a href="https://sg.mrcsurvey.com/simgesw22021"><span class="e">https://sg.mrcsurvey.com/simgesw22021</span></a></p>
 
 <p>Follow the link to opt out of future emails:<br />
-<a class="a" href="mailto:SIMfeedback@mediacorp.com.sg?subject=%3CUnsubscribe%3E%3A&amp;body=%0A%0A">
+<a href="mailto:SIMfeedback@mediacorp.com.sg?subject=%3CUnsubscribe%3E%3A&amp;body=%0A%0A">
 <span class="e">Click here to unsubscribe</span></a></p>
 
 <p>There will be a lucky draw of gift items below to those who participate in this survey. <i>(Terms and conditions apply)</i></p>
 
-</td></tr></tbody></table>
-
-
-<div style="text-align: left;"><ul class="a">
+<div><ul>
 1 set<sup> </sup>Microsoft Surface Pro 7 (2-in-1 Laptop)<br>
 1 set<sup> </sup>Samsung Galaxy S21+ 5G<br>
 1 set<sup> </sup>Samsung Galaxy Tab S7 WIFI<br>
@@ -61,9 +59,6 @@ p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: ital
 1 set<sup> </sup>Sony WH-1000XM4
 </ul></div>
 
-
-<table style="width: 700px;">
-<tbody><tr><td>
 <p>Warm regards,</p>
 <p>
 Media Research Consultants (MRC), the appointed research company by SIMGE<br />
@@ -75,5 +70,4 @@ Email: SIMfeedback@mediacorp.com.sg<br />
 
 <div id="gap" style="height: 10px;"></div>
 <!-- Message Footr Begin -->
-
 <!-- Message Footr End -->
