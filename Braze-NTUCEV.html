@@ -1,105 +1,101 @@
-<style>
-.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
-.bol {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-align:center;}
-.nor {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;text-align:left;}
-#gap {width: 900; height: 11px; border: 0px transparent;background: transparent!important;}
-.wrap {max-width: 100vw;width: 700px;display:flex;-webkit-flex-direction:column;flex-direction:column;padding:23px;margin:auto}
-.bann {max-height:22.4411508282476vw;max-width:90vw;height:159.58151700087183px;width:640px;background-size:contain;background-position:center;background-repeat:no-repeat;border:0 solid transparent;border-radius:28px;margin-top:12px;margin:auto}
-.card {display:flex;flex-direction:column;margin:auto;max-width:90vw;width:640px;background-color:#transparent;margin-top:42px;margin-bottom:12px;border:0 solid transparent}
-p {margin: 11px;}
+<style type="text/css">
+img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
+table {width:100vw; max-width: 100vw;font-family: Arial; font-size: 13px;width: 700px;} /* make table fit screen size */
+span.h{font-size: 17pt;font-weight: bold;font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-TITLE font */
+span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
+span.e{font-size: 14px;} /* emphasized WORDS */
+span.a{font-size: 17px; color:#0032A6;} /* eVoucher URL-codes*/
+span.f{border-bottom: 3px double;} /* text double-underlined */
+ol {line-height: 25px;} /* format for prize list */
+ul.a{margin-left:34px; padding: 0;font-weight: bold;display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
+a.a{text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
+#gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
+p {margin: 16px;text-decoration: none;line-height:1.5;} /* space between text and border */
+p.list {} /* space between text and border */
+p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
 </style>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" />
 
-<div class="wrap">
-<table style="max-width: 100vw; width: 900px;"> <tbody><tr>
-<div class="bann"><a href="#">
-<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6245766f93b1c05464fb8f53/original.png"  width="700" border="0" align="left" /></a></div>
+<!-- Message Bannr Begin -->
+<table> <tbody><tr>
+<div style="text-align: center;">
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6245766f93b1c05464fb8f53/original.png" style="width:700px;"/></div>
 </tr> </tbody></table>
 <div id="gap"></div>
-<table style="max-width: 100vw; width: 700px;"> <tbody><tr>
-<div class="card">
-<!-- Message Start -->
-<div class="nor">Dear {{ ${first_name} | default: 'Sir/Mdm' }},<br /><br /></div>
-<div class="bol" style="text-align: left;">Thank you for your recent participation in English Radio Music Test 2021/2022.<br /><br /></div>
+<!-- Message Bannr End -->
 
-<div class="nor">We would like to present you a <b>$30 NTUC Fairprice vouchers</b> as a token of appreciation. Note that the voucher URLs will be in denominations of S$10.<br /><br />
-</div>
+<table>
+<tbody><tr><td>
+<p> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</p>
 
-<div class="nor">
-<b>Please kindly acknowledge this email</b>.<br />
+<p><b>Thank you for your recent participation in English Radio Music Test 2021/2022.</b></p>
+
+<p>We would like to present you a <b>$30 NTUC Fairprice vouchers</b> as a token of appreciation. Note that the voucher URLs will be in denominations of S$10.</p>
+
+<p><b>Please kindly acknowledge this email</b>.<br />
 <i>*Terms and conditions apply</i>.<br /><br />
-<p style="font-size: 17px; color:#0033ff;">
+<p><span class="a">
 URL 1: {{custom_attribute.${ntucEV1}}}<br /><br />
 URL 2: {{custom_attribute.${ntucEV2}}}<br /><br />
-URL 3: {{custom_attribute.${ntucEV3}}}<br /></font></p>
-</div>
-<br />
+URL 3: {{custom_attribute.${ntucEV3}}}<br /><br />
+</span></p>
+</p>
 
-<div class="nor">
-<b>How to use a NTUC Fairprice voucher code?</b><br />
-</div>
+<p><b>How to use a NTUC Fairprice voucher code?</b></p>
 
-<div style="display: block;" align="left; margin: 16px;" class="nor">
-<ol style="line-height: 25px;">
+<p><ol>
 <li>Access the e-voucher by clicking on the URL</li>
 <li>E-voucher will load on a browser (not required to download the app)</li>
 <li>E-voucher is ready for use in stores or online. E-voucher status and QR code will be reflected</li>
-</ol>
-</div>
+</ol></p>
 
-<div class="bol" align="left;"><span style="color:#4472C4;width: 700px;">
+<p><span style="color:#0032A6"><b>
 Note: Further instructions on how to use the e-voucher and terms & conditions can be found upon clicking on the URL</span>
-</div><br />
+</b></span></p>
 
-<div class="nor">
-<b>Redeem in stores:</b><br />
-</div>
+<p><b>Redeem in stores:</b></p>
 
-<div class="nor" style="margin: 16px;">
-<b align="left;" >At Cashier</b>
-</div>
+<p style="margin: 16px;"><b>At Cashier</b></p>
 
-<div style="display: block;" align="left; margin: 16px;" class="nor">
-<ol style="line-height: 25px;">
+<p><ol>
 <li>Show the QR Code to the cashier</li>
-</ol></div>
+</ol></p>
 
-<div class="nor" style="margin: 16px;">
-<b align="left;" >At Self-Checkout Counter</b><br />
+<p style="margin: 16px;">
+<b>At Self-Checkout Counter</b><br />
 When selecting payment type:
-</div>
+</p>
 
-<div style="display: block;" align="left; margin: 16px;" class="nor">
-<ol style="line-height: 25px;">
+<p><ol>
 <li>Select All Other Payment</li>
 <li>Select Partner Voucher/ FP eVoucher</li>
 <li>Use handheld scanner to scan QR code</li>
-</ol></div>
+</ol></p>
 
-<table>       <tbody><tr><td>
-<a target="_blank" href="#">
-<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/624bffb908100b49d5eb5320/original.png" style="width:90%; margin: 1px;" border="0" align="left" /></a>
-</td></tr>      </tbody></table>
-<p>&nbsp;</p>
+<table> <tbody><tr>
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/624bffb908100b49d5eb5320/original.png"/>
+</tr> </tbody></table>
+<p></p>
 
-<div class="nor">
-<b>Redeem Online:</b><br />
-</div>
+<p><b>At Self-Checkout Counter</b><br />
+When selecting payment type:
+</p>
 
-<div style="display: block;" align="left; margin: 16px;" class="nor">
-<ol style="line-height: 25px;">
+<p><b>Redeem Online:</b></p>
+
+<p><ol>
 <li>Tap on “Copy” to copy the voucher code</li>
-<li>Shop online at fairprice.com.sg OR the FairPrice App</li>
+<li>Shop online at Fairprice.Com.Sg OR the FairPrice App</li>
 <li>Tap on “Add” voucher code at checkout</li>
 <li>Paste the code you copied, tap “Apply” and proceed with checkout</li>
-</ol></div>
+</ol></p>
 
-<table>       <tbody><tr><td>
-<a target="_blank" href="#">
-<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/624bf7f48e04e1235a764adc/original.png" style="width:90%; margin: 1px;" border="0" align="left" /></a>
-</td></tr>      </tbody></table>
-<p>&nbsp;</p>
+<table> <tbody><tr>
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/624bf7f48e04e1235a764adc/original.png"/>
+</tr> </tbody></table>
+<p></p>
 
-<div style="display: block;" align="left; margin: 16px;" class="tnc">
+<p class="tnc">
 Terms &amp; Conditions<br /><br />
 * This e-voucher expires on 24 February 2023.<br />
 * Expressed in Singapore dollars.<br />
@@ -112,14 +108,16 @@ Terms &amp; Conditions<br /><br />
 * Non-renewable upon expiry. Expiry date is final.<br />
 * Not valid for checkout via Scan & Go.<br />
 * Voucher does not offset service and delivery fees on FairPrice Online orders.<br />
-<br /><br />
-</div>
+</p>
 
+</td>
+</tr>
+</tbody></table>
+
+<div id="gap" style="height: 10px;"></div>
 <!-- Message Footr Begin -->
-</tr> </tbody></table>
-<table style="max-width: 100vw; width: 900px;"> <tbody><tr>
-<div class="bann"><a href="#"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/61a7affcfd3724266d3aa941/original.png"  width="700" border="0" align="left" /></a>
-</div>
+
+<table> <tbody><tr>
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/61a7affcfd3724266d3aa941/original.png" style="width:700px;"/>
 </tr> </tbody></table>
 <!-- Message Footr End -->
-</div></div>
