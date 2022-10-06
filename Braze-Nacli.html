@@ -1,47 +1,49 @@
 <style type="text/css">
-span.b{font-family: Arial; sans-serif; font-size: 13px;} /* Emarsys legacy */
+span.b{font-family: Arial; sans-serif; font-size: 15px;} /* Emarsys legacy */
 span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
 span.d{font-family: Arial;font-size: 16px;} /* emphasized WORDS font */
-span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */
+span.e{font-family: Arial, sans-serif;font-size: 16px;} /* emphasized LOGINID font */
 span.f{border-bottom: 3px double;}/* emphasized LOGINID font */ text double-underlined */
-span.g{font-size: 17pt; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font  */
+span.g{font-size: 21pt; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font  */
 span.h{font-size: 12pt; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font */
 ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
 a.a{text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
 #gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
 p {margin: 16px;text-decoration: none;} /* space between text and border */
 p.a{line-height:1.3}
-img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
+img {display: block; max-width: 700px; height: auto; border:0} /* make IMAGE fit screen size */
 table {width:100vw;} /* make table fit screen size */
 body {color:#000000}
-img.a{float: right; margin: 0px 115px;} /* IMAGE float position (non-compatible with SMTP). Or can also use table width as x-cord limits */
+img.a{float: right; margin: 0px 15px;} /* IMAGE float position (non-compatible with SMTP). Or can also use table width as x-cord limits */
 </style>
 <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" /><!--Emarsys script start -->
-<table style="max-width: 100vw; width: 900px;">
+<table style="width: 100vw;max-width: 700px">
 <tbody><tr><td><p>
-<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/61821b971ca5eb2e92cb2579/original.png" height='122' width='700'></img>
+<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/61821b971ca5eb2e92cb2579/original.png" height='122'></img>
 </p></td></tr>
 </tbody></table>
 
 <div id="gap"></div>
 
-<table style="max-width: 100vw; width: 700px;">
+<table style="width: 625px;max-width: 700px">
 <tbody><tr>
 <td>
 <p><span class="b"> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</span></p>
+
 
 <div style="text-align: center;"><b>
 <span class="g">NACLI Perception Study</span>
 <span class="g">2022</span></b><br />
 </div>
 
-<p><span class="b">We would like to invite you to participate in an e-survey to gather feedback on programmes offered by National Community Leadership Institute (NACLI).</span></p>
+<p><span class="b">We would like to invite you to participate in an e-survey to gather feedback on programmes offered by 
+National Community Leadership Institute (NACLI).</span></p>
 
 <p><span class="b">Your feedback will also allow us to make improvements at NACLI and enhance our programmes for future participants.</span></p>
 
 <p><span class="b">Please use the following login key to access the survey.</span></p>
 
-<p><span class="b">Your login key:<b><span class="e">{{custom_attribute.${password}}}</span></b></span></p>
+<p><span class="b">Your login key:&emsp;<b>{{custom_attribute.${password}}}</b></span></p>
 
 <p><span class="b">Click 
 <a href="https://sg.mrcsurvey.com/PANACLI"><u><span class="c">here</span></u></a>
@@ -51,11 +53,15 @@ img.a{float: right; margin: 0px 115px;} /* IMAGE float position (non-compatible 
 
 <p><span class="b">Please note that you will require <u>internet access</u> to administer the survey.</span></p>
 
-<p><span class="b">Media Research Consultants Pte Ltd (MRC) is the appointed vendor administering this survey. Please be assured that all data collected will be kept strictly confidential. Only aggregate data will be presented and used by the institute for the purpose of this survey.</span></p>
+<p><span class="b">Media Research Consultants Pte Ltd (MRC) is the appointed vendor administering this survey. 
+Please be assured that all data collected will be kept strictly confidential. 
+Only aggregate data will be presented and used by the institute for the purpose of this survey.</span></p>
 
-<p><span class="b">For enquiries, please click 
-<a href="mailto:Enquiries.PANACLI@mediacorp.com.sg ?subject=%3CSurvey Feedback%3E%3A&amp;body=%0A%0A"><u><span class="c">here</span></u></a>
- to email.</span></p>
+<p><span class="b">If you have any concerns or technical questions about the questionnaire, please email 
+<a href="mailto:Enquiries.PANACLI@mediacorp.com.sg?subject=%3CSurvey Feedback%3E%3A&amp;body=%0A%0A"><u><span class="c">enquiries.PANACLI@mrcsurvey.mediacorp.sg.</span></u></a>
+ If you have any queries about the survey, you may email
+<a href="mailto:nacli_survey@pa.gov.sg?subject=%3CQuery:NACLI Perception Study 2022%3E%3A&amp;body=%0A%0A"><u><span class="c">nacli_survey@pa.gov.sg.</span></u></a>
+</span></p>
 <p></p>
 
 </td>
@@ -63,7 +69,7 @@ img.a{float: right; margin: 0px 115px;} /* IMAGE float position (non-compatible 
 </tbody></table>
 
 
-<table style="max-width: 100vw; width: 700px;">
+<table style="width: 625px;max-width: 700px">
 <tbody><tr>
 <td>
 
@@ -71,7 +77,7 @@ img.a{float: right; margin: 0px 115px;} /* IMAGE float position (non-compatible 
 <img class='a' src="https://braze-images.com/appboy/communication/assets/image_assets/images/6333ddf78a98a46488b8cfcd/original.png" alt="img" width='150'></img>
 </div>
 <div>
-<span class="b"><p>
+<p><span class="b">
 Thank you.<br>
 Media Research Consultants
 </span></p>
