@@ -1,0 +1,110 @@
+<style type="text/css">
+span.a{font-family: Arial; sans-serif; font-size: 13px;}				/* Font: Normal */
+span.b{font-family: Arial; sans-serif; font-size: 15px;}				/* Font: Medium */
+span.e{font-family: Arial, sans-serif;font-size: 16px;}					/* Font: Large */
+span.c{color: rgb(0, 0, 255);}											/* Font: BLUE */
+span.f{border-bottom: 3px double;}										/* Underline: Double */
+a.a{text-decoration: underline; text-underline-offset: 3px;}			/* Underline: Space underneath */
+p {margin: 16px;text-decoration: none;}									/* Para: Space between Para and border */
+p.a{line-height:1.3}													/* Para: Line-space in Para */
+#gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;}	/* Para: Space between Para */
+span.g{font-size: 21pt; font-family: Calibri; color: rgb(35, 31, 32);}	/* Title: Large font */
+span.h{font-size: 12pt; font-family: Calibri; color: rgb(35, 31, 32);}	/* Title: Small font */
+img {display: block; max-width: 700px; height: auto; border:0}			/* IMG: Fit screen size */
+img.a{float: right; margin: 0px 15px;}									/* IMG: Float position */
+table {width:100vw;}													/* Table: Fit screen size */
+body {color:#000000}													/* Background Color */
+ul.a{display: inline-block; list-style-type: none; text-align: left;}	/* List */
+</style>
+
+<!--Fit display for Multi devices-->
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" /><!--Emarsys script start -->
+
+<!--Banner in Table--->
+<table style="width: 100vw;max-width: 700px">
+<tbody><tr><td><div>
+<img src="https://shorturl.at/pJOSZ"  alt="banner" height='122'></img>
+</div></td></tr></tbody>
+</table>
+
+<!--Custom space GAP between paragraph-->
+<div id="gap" style="height: 10px;"></div>
+
+<!--Contents in Table: Start--->
+<table style="width: 625px;max-width: 700px">
+<tbody><tr><td><span class="b">
+<!--Contents in Table: End-->
+</span></td></tr></tbody>
+</table>
+
+<!--MailMerge: Greetings-->
+<p> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</p>
+
+<!--Email Subject Title-->
+<div style="text-align: center;"><b>
+<span class="g">NACLI Perception Study</span>
+<span class="g">2022</span><br />
+</b></div>
+
+<!--Generic Paragraph-->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+esse cillum dolore eu fugiat nulla pariatur. <i>(Terms and conditions apply)</i></p>
+
+<!--MailMerge: Password-ID-->
+<p>Your login key:&emsp;<b>{{custom_attribute.${password}}}</b></p>
+
+<!--URL link ( Multi FONTS )-->
+<p>Click 
+<a href="https://shorturl.at/yFLT9"><u><span class="c">here</span></u></a>
+to complete the 15 mins survey.</p>
+
+<!--MailTo link ( Multi FONTS )-->
+<p>Please email 
+<a href="mailto:email@mediacorp.com.sg?subject=%3CSurvey Feedback%3E%3A&amp;body=%0A%0A"><u><span class="c">Email</span></u></a>
+</p>
+
+<!--QRcode in Table--->
+<table style="width: 625px;max-width: 700px">
+<tbody><tr><td><span class="b"><div>
+<img class='a' src="https://shorturl.at/jnQY6" alt="QR" width='150'></img>
+<p>QRcode on Right side</p>
+</div></span></td></tr></tbody>
+</table>
+
+<!--List items in Table--->
+<table style="width: 625px;max-width: 700px">
+<tbody><tr><td><span class="b"><div>
+<ul class="a"><b>
+1 set<sup>&emsp;</sup>Microsoft Surface Pro 8<br>
+1 set<sup>&emsp;</sup>Samsung Galaxy S22<br>
+1 set<sup>&emsp;</sup>Samsung Galaxy Tab S8 WIFI<br>
+1 set<sup>&emsp;</sup>Sony WH-1000XM5 (Headphone)<br>
+1 set<sup>&emsp;</sup>Sony WF-1000XM4 (True-Wireless Earphone)<br>
+</b></ul>
+</div></span></td></tr></tbody>
+</table>
+
+<!--SignOFF in Table--->
+<table style="width: 625px;max-width: 700px">
+<tbody><tr><td><span class="b"><div>
+<p>Warm regards,</p>
+<p>
+Media Research Consultants (MRC), the appointed research company by SIMGE<br>
+1 Stars Avenue, Singapore 138507<br>
+Tel: 6819 6258<br>
+Email: SIMfeedback@mediacorp.com.sg<br>
+</p>
+</div></span></td></tr></tbody>
+</table>
+
+
+<!--...-->
+
+
+<!--...-->
+
+
+<!--...-->
+
