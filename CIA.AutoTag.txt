@@ -23,16 +23,18 @@ table {width:100vw;} /* use Table to make EDM fit screen size */
 
 <table>      <tbody><tr>
 <td>
-<p><span class="b"> Hi $First Name$,</span></p>
+<p><span class="b"> Hi {Name},</span></p>
 <div style="text-align: center;"><b><span style="font-size: 17pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">
 Ad-Hoc Data Labelling Recruitment Briefing (MRC)</span></b><br /><br /></div>
 
 <p><span class="b">
-We would like to inform you that you have been shortlisted for the {language} data labelling tasks. You will be required to attend a compulsory online briefing, where we will go through a tutorial on how to use the tools and clarify the expectations of the tasks. The briefing will be held between <b>6.30pm-7.30pm on Monday, 15 November</b> here 
+We would like to inform you that you have been shortlisted for the {language} data labelling tasks. You will be required to attend a compulsory online briefing, where we will go through a tutorial on how to use the tools and clarify the expectations of the tasks. The briefing will be held between 
+<b>6.30pm-7.30pm on Thursday, 20 October</b> here
 {meeting link}.
-Thereafter, you are required to complete a trial of 20 articles by the end of the week (<b>11.59pm, 21 November</b>). Reimbursements will be disbursed upon completion of the trial, amounts as below.
+Thereafter, you are required to complete a trial of 20 articles at your own time by the end of the week (<b>11.59pm, 30 October</b>
+). This task is expected to take less than an hour. Reimbursements will be disbursed upon completion of the trial, amounts as below.
 </span><br /></p>
-<input type="button" onclick="tableToExcel('testTable1', 'W3C Example Table')" value="Export Table to Excel"><br /><br />
+
 <table id="testTable1" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;">
  <tbody>
   <tr>
@@ -43,52 +45,56 @@ Thereafter, you are required to complete a trial of 20 articles by the end of th
   <tr>
     <td style="padding: 4px; font-size: 13px;">English</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 30.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 15.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Mandarin</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 35.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 20.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Malay</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 40.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 20.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Tamil</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 45.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 30.00</td>
   </tr>
  </tbody></table>
 
-<p><span class="b">We will review the trial submissions by end December. If you are selected, you will then be assigned roughly 200-300 articles to be completed within a <span class="f">2 week</span> timeframe (<b>tentatively 4 – 19 Dec</b>) at the below rates.</span><br /></p>
+<p><span class="b">We will inform you of the results after we review the rial assignment. Applicants who pass the trial will then be assigned between 200-300 articles 
+<b>to be completed by 16 December</b> at the below rates.</span><br /></p>
 
-<input type="button" onclick="tableToExcel('testTable2', 'W3C Example Table')" value="Export Table to Excel"><br /><br />
 <table id="testTable2" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;">
- <tbody><tr>
+ <tbody>
+ <tr>
     <td style="padding: 4px; font-size: 13px; font-weight: bold;">Language</td>
     <td style="padding: 4px; font-size: 13px; font-weight: bold;">Reimbursement/Article</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">English</td>
-    <td style="padding: 4px; font-size: 13px;">$ 2.50</td>
+    <td style="padding: 4px; font-size: 13px;">$ 1.50</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Mandarin</td>
-    <td style="padding: 4px; font-size: 13px;">$ 3.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 2.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Malay</td>
-    <td style="padding: 4px; font-size: 13px;">$ 3.50</td>
+    <td style="padding: 4px; font-size: 13px;">$ 2.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Tamil</td>
-    <td style="padding: 4px; font-size: 13px;">$ 4.50</td>
+    <td style="padding: 4px; font-size: 13px;">$ 3.00</td>
   </tr>
  </tbody></table>
 
-<p><span class="b">Please ensure that you are able to commit to the timelines stated above and confirm your attendance for the briefing by replying to this email by <b>11.59pm on 14 November</b>. If you have any enquiries or need further clarification, you may telegram @ellpeeaxe or reply to this <span class="f">email</span> and we will get back to you as soon as possible.</span><br /></p>
+<p><span class="b">Please ensure that you are able to 
+<b>commit to the timelines stated above</b> and <b>confirm your attendance for the briefing</b> 
+ by replying to this email by <b>11.59pm on 20 October</b> . If you have any enquiries or need further clarification, you may telegram @ellpeeaxe or reply to this email and we will get back to you as soon as possible.
+</span><br /></p>
 
 <p><span class="b">Regards,<br />Media Research Consultants</span></p>
 </td>
@@ -96,18 +102,6 @@ Thereafter, you are required to complete a trial of 20 articles by the end of th
 <div id="gap" style="height: 200px;"></div>
 
 <!--Emarsys script end -->
-<script type="text/javascript">
-var tableToExcel = (function() {
-  var uri = 'data:application/vnd.ms-excel;base64,'
-    , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
-    , base64 = function(s) { return window.btoa(unescape(encodeURIComponent(s))) }
-    , format = function(s, c) { return s.replace(/{(\w+)}/g, function(m, p) { return c[p]; }) }
-  return function(table, name) {
-    if (!table.nodeType) table = document.getElementById(table)
-    var ctx = {worksheet: name || 'Worksheet', table: table.innerHTML}
-    window.location.href = uri + base64(format(template, ctx))
-  }
-})()
-</script>
+
 
 
