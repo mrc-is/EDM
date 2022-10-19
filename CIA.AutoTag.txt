@@ -1,41 +1,52 @@
-<style>
-span.a{font-family: Arial, sans-serif; font-size: 13px;} /* Emarsys standard auto-font */
-span.b,th,td{font-family: Arial; font-size: 13px;} /* Emarsys standard auto-font */
-span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
-span.d{font-family: Arial;font-size: 16px;} /* emphasized WORDS font */
-span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */
-span.f{ border-bottom: 3px double; }/* emphasized LOGINID font */ text double-underlined */
-ul.a  {display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;}
-#gap  {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
-p {margin: 16px;text-decoration: none;} /* space between text and border */
-img   {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
-table {width:100vw;} /* use Table to make EDM fit screen size */
+<style type="text/css">
+span.a{font-family: Arial, sans-serif; font-size: 13px;}				/* Font: Normal */
+span.b{font-family: Arial, sans-serif; font-size: 15px;}				/* Font: Medium */
+span.e{font-family: Arial, sans-serif;font-size: 16px;}					/* Font: Large */
+span.c{color: rgb(0, 0, 255);}											/* Font: BLUE */
+span.f{border-bottom: 3px double;}										/* Underline: Double */
+a.a{text-decoration: underline; text-underline-offset: 3px;}			/* Underline: Space underneath */
+p {margin: 16px;text-decoration: none;}									/* Para: Space between Para and border */
+p.a{line-height:1.3}													/* Para: Line-space in Para */
+#gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;}	/* Para: Space between Para */
+span.g{font-size: 21pt; font-family:Verdana, sans-serif; color: rgb(35, 31, 32);}	/* Title: Large font */
+span.h{font-size: 15pt; font-family:Verdana, sans-serif; color: rgb(35, 31, 32);}	/* Title: Small font */
+img {display: block; max-width: 700px; height: auto; border:0}			/* IMG: Fit screen size */
+img.a{float: right; margin: 0px 15px;}									/* IMG: Float position */
+table {width:100vw;}													/* Table: Fit screen size */
+body {color:#000000}													/* Background Color */
+ul.a{display: inline-block; list-style-type: none; text-align: left;}	/* List */
 </style>
-<meta charset="utf-8" /><meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /><meta name="HandheldFriendly" content="True" />
 
-<!--Emarsys script start -->
-<table><tbody><tr>
-<td style="display: none;" colspan="3"><img src="https://image.mrcsurvey.com/custloads/271723802/archive/evoucher/MRChead4.png" />
-</td>
-</tr></tbody></table>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /><meta content="True" name="HandheldFriendly" /><!--Emarsys script start -->
 
-<div id="gap"></div>
+<table style="width: 100vw;max-width: 700px">
+<tbody><tr><td><div>
+<img src="https://image.mrcsurvey.com/custloads/271723802/archive/evoucher/MRChead4.png"  alt="banner" height='122'></img>
+</div></td></tr></tbody>
+</table>
 
-<table>      <tbody><tr>
-<td>
-<p><span class="b"> Hi {Name},</span></p>
-<div style="text-align: center;"><b><span style="font-size: 17pt; font-family: Calibri, sans-serif; color: rgb(35, 31, 32);">
-Ad-Hoc Data Labelling Recruitment Briefing (MRC)</span></b><br /><br /></div>
+<div id="gap" style="height: 10px;"></div>
 
-<p><span class="b">
-We would like to inform you that you have been shortlisted for the {language} data labelling tasks. You will be required to attend a compulsory online briefing, where we will go through a tutorial on how to use the tools and clarify the expectations of the tasks. The briefing will be held between 
-<b>6.30pm-7.30pm on Thursday, 20 October</b> here
+<table style="width: 625px;max-width: 700px">
+<tbody><tr><td><span class="b">
+<p> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</p>
+
+<div style="text-align: center;"><b>
+<span class="h">Ad-Hoc Data Labelling Recruitment Briefing</span>
+<span class="h">(MRC)</span><br />
+</b></div>
+
+<p>We would like to inform you that you have been shortlisted for the {language} data labelling tasks. 
+You will be required to attend a compulsory online briefing, where we will go through a tutorial on how 
+to use the tools and clarify the expectations of the tasks. The briefing will be held between 
+<b>6.30pm-7.30pm on Monday, 15 November</b> here 
 {meeting link}.
-Thereafter, you are required to complete a trial of 20 articles at your own time by the end of the week (<b>11.59pm, 30 October</b>
-). This task is expected to take less than an hour. Reimbursements will be disbursed upon completion of the trial, amounts as below.
-</span><br /></p>
+<br />Thereafter, you are required to complete a trial of 20 articles by the end of the week (<b>11.59pm, 21 November</b>). 
+Reimbursements will be disbursed upon completion of the trial, amounts as below.
+</p>
 
-<table id="testTable1" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;">
+
+<table id="testTable1" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;width: auto;">
  <tbody>
   <tr>
     <td style="padding: 4px; font-size: 13px; font-weight: bold;">Language</td>
@@ -45,63 +56,70 @@ Thereafter, you are required to complete a trial of 20 articles at your own time
   <tr>
     <td style="padding: 4px; font-size: 13px;">English</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 15.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 30.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Mandarin</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 20.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 35.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Malay</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 20.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 40.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Tamil</td>
     <td style="padding: 4px; font-size: 13px;">20</td>
-    <td style="padding: 4px; font-size: 13px;">$ 30.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 45.00</td>
   </tr>
  </tbody></table>
 
-<p><span class="b">We will inform you of the results after we review the rial assignment. Applicants who pass the trial will then be assigned between 200-300 articles 
-<b>to be completed by 16 December</b> at the below rates.</span><br /></p>
+<p>We will review the trial submissions by end December. 
+If you are selected, you will then be assigned roughly 200-300 
+articles to be completed within a <span class="f">2 week</span> 
+timeframe (<b>tentatively 4 – 19 Dec</b>) at the below rates.
+</p>
 
-<table id="testTable2" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;">
- <tbody>
- <tr>
+<table id="testTable2" cellpadding="1" cellspacing="1" border="1" style="margin-left: 20px; border-collapse: collapse;width: auto;">
+ <tbody><tr>
     <td style="padding: 4px; font-size: 13px; font-weight: bold;">Language</td>
     <td style="padding: 4px; font-size: 13px; font-weight: bold;">Reimbursement/Article</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">English</td>
-    <td style="padding: 4px; font-size: 13px;">$ 1.50</td>
+    <td style="padding: 4px; font-size: 13px;">$ 2.50</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Mandarin</td>
-    <td style="padding: 4px; font-size: 13px;">$ 2.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 3.00</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Malay</td>
-    <td style="padding: 4px; font-size: 13px;">$ 2.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 3.50</td>
   </tr>
   <tr>
     <td style="padding: 4px; font-size: 13px;">Tamil</td>
-    <td style="padding: 4px; font-size: 13px;">$ 3.00</td>
+    <td style="padding: 4px; font-size: 13px;">$ 4.50</td>
   </tr>
  </tbody></table>
 
-<p><span class="b">Please ensure that you are able to 
-<b>commit to the timelines stated above</b> and <b>confirm your attendance for the briefing</b> 
- by replying to this email by <b>11.59pm on 20 October</b> . If you have any enquiries or need further clarification, you may telegram @ellpeeaxe or reply to this email and we will get back to you as soon as possible.
-</span><br /></p>
+<p>Please ensure that you are able to commit to the timelines stated above and confirm your 
+attendance for the briefing by replying to this email by <b>11.59pm on 14 November</b>. 
+If you have any enquiries or need further clarification, you may telegram @ellpeeaxe or 
+reply to this <span class="f">email</span> and we will get back to you as soon as possible.
+</p>
 
-<p><span class="b">Regards,<br />Media Research Consultants</span></p>
-</td>
-</tr></tbody></table>
-<div id="gap" style="height: 200px;"></div>
+<p>Warm regards,</p>
 
-<!--Emarsys script end -->
+<p>Media Research Consultants</p>
+
+</span></td></tr></tbody>
+</table>
+
+
+
+
 
 
 
