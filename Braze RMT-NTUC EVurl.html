@@ -3,7 +3,7 @@ span.b{font-family: Arial; sans-serif; font-size: 13px;} /* Emarsys legacy */
 span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
 span.d{font-family: Arial; sans-serif;font-size: 16px;} /* emphasized WORDS font */
 span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */
-span.f{border-bottom: 3px double;}/* emphasized LOGINID font  /* double UNDRline */
+span.f{border-bottom: 3px double;} /* double UNDRline */
 span.g{font-family: Arial; sans-serif; font-size: 17px;} /* EDM letter-head font  */
 span.h{font-family: Arial; sans-serif; font-size: 18px;}
 ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
@@ -40,14 +40,17 @@ p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: ital
 <i>*Terms and conditions apply</i>.
 </span></p>
 
-<p style="font-size: 30px; color:#0033ff;"><span style="font-size:15px;">
-{{custom_attribute.${ntucEV1}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39Q1w01é'}}<br>
-<span class="h">{{custom_attribute.${evouche1} | default: 'Q1w01é'}}</span><br>
-{{custom_attribute.${ntucEV2}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39dh001é5'}}<br>
-<span class="h">{{custom_attribute.${evouche2} | default: 'dh001é5' }}</span><br>
-{{custom_attribute.${ntucEV3}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39aj001é4'}}<br>
-<span class="h">{{custom_attribute.${evouche3} | default: 'aj001é4'}}</span>
-</span></p>
+<p style="font-size: 30px; color:#0033ff;">
+<span style="font-size:15px;">
+{{custom_attribute.${ntucEV1}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39Q1w01é'}}</span><br>
+{{custom_attribute.${evouche1} | default: 'Q1w01é'}}<br>
+<span style="font-size:15px;">
+{{custom_attribute.${ntucEV2}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39dh001é5'}}</span><br>
+{{custom_attribute.${evouche2} | default: 'dh001é5' }}<br>
+<span style="font-size:15px;">
+{{custom_attribute.${ntucEV3}| default: 'https://api.grab.com/gifts/v2/go?id=400f436777b64474bdd3c22b39aj001é4'}}</span><br>
+{{custom_attribute.${evouche3} | default: 'aj001é4'}}
+</p>
 <br>
 
 <p align="left; margin: 16px;"><span class="b">
