@@ -1,0 +1,71 @@
+<style>
+span.b{font-family: Arial; sans-serif; font-size: 13px;} /* Emarsys legacy */
+span.c{color: rgb(0, 0, 255);} /* external links,BLUE font */
+span.d{font-family: Arial;font-size: 14px;} /* emphasized WORDS font */
+span.e{font-family: Arial, sans-serif;font-size: 14px;} /* emphasized LOGINID font */
+span.f{border-bottom: 3px double;}/* emphasized LOGINID font text-double underlined */
+span.g{font-size: 16px; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font  */
+span.h{font-size: 12px; font-family: Calibri; color: rgb(35, 31, 32);} /* EDM letter-head font */
+ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} /* format for prize list */
+a.a{text-decoration: underline; text-underline-offset: 3px;} /* control size-of-gap of underline */
+#gap {width: 100%; height: 10px; border: 0px transparent;background: transparent!important;} /* space between logo and first line */
+p {margin: 16px;text-decoration: none;} /* space between text and border */
+p.a{line-height:1.3}
+img {display: block; max-width: 100vw; height: auto; border:0} /* make IMAGE fit screen size */
+table {width:100vw;} /* make table fit screen size */
+body {color:#000000}
+</style>
+<link rel="stylesheet" type="text/css" href="https://seneca.w3spaces.com/brazeCSS.css"/>
+<meta name="HandheldFriendly,viewport" charset="utf-8" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!--Emarsys script start -->
+<table style="max-width: 100vw; width: 700px;">
+<tbody><tr>
+<td colspan="3"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/65fa8735486765004c255f24/original.png"/></td>
+</tr>
+</tbody></table>
+
+<div id="gap"></div>
+
+<table style="max-width: 100vw; width: 700px;">
+<tbody><tr>
+<td>
+<p><span class="b"> Dear {{ ${first_name} | default: 'Sir/Mdm' }},</span></p>
+
+<div style="text-align: center;"><b>
+<span class="g">MOM’s PRE-Cultural Orientation Programme Survey 2024 </span><br />
+</div>
+<div id="gap" style="height: 10px;"></div>
+
+<p><span class="b">The <b>Ministry of Manpower</b> has commissioned Media Research Consultants Pte Ltd (‘MRC’) to administer an online survey to understand your knowledge and perception of Singapore′s culture and workplace norms.</span></p>
+
+<p><span class="b">You have been randomly selected to participate in this survey. Your responses can make a difference. The information collected will help MOM evaluate the effect of the Cultural Orientation Programme. Please be assured that all information that you provide will be strictly confidential.  </span></p>
+<p><span class="b"><u><b>Complete the survey by 15 June 2024</b></u></span></p>
+<ol><li>
+<p><span class="b">Click on the link below and use your assigned login key to start the survey. It will take about <b>5 minutes</b> to complete the survey. If we have achieved the required number of participants, the survey may close early.  </span></p>
+<UL style="list-style-type:none;">
+<li><p><span class="b">Link: 
+<a class="a" href="https://sg.mrcsurvey.com/mom-pre-cop2024-sg?lid=xlhqm2f9ag3o">
+<span class="d">https://sg.mrcsurvey.com/mom-pre-cop2024-sg</span></a>
+</span></p>
+<li><p><span class="b">Your assigned <b>login key</b> is:
+<b><span class="e" style="color:crimson;">{{custom_attribute.${password} | default: '12345678'}}</span></b>
+</span></p>
+</UL>
+<p><span class="b">If you cannot complete the interview over the internet, please call us to make an appointment for a telephone interview.</span></p>
+</li><li>
+<p><span class="b">We will provide a <b>$10 cash incentive</b> to you via PayNow. Once the transaction is complete, you will receive a notification. This is estimated to be about 1.5 months after you complete the survey as we will need to verify your responses.  </span></p>
+</li></ol>
+<p><span class="b"><u><b>Look out for our second email for the second survey</b></u></span></p>
+
+<p><span class="b">
+About four weeks after you have completed the first survey, we will email you with the details for the second survey. We hope you will continue to participate. If you complete the second survey, you will receive another <b>$15 cash incentive</b>. 
+</span></p>
+
+<p><span class="b">We look forward to your support and participation. </span></p>
+<p><span class="b">If you need any help, call us at 9680 5966 between 9am - 9pm, or email <b><a style="text-decoration:none;" href="mailto:MOM.COP.SURVEYFEEDBACK@mediacorp.com.sg?subject=%3CFeedback%3E%3A&amp;body=%0A%0A"> <span class="c" style="color:black">MOM.COP.SURVEYFEEDBACK@mediacorp.com.sg</span></a></b></span></p>
+
+
+</td></tr></tbody></table>
+
+<div id="gap" style="height: 10px;"></div>
+<!--Emarsys script end -->
