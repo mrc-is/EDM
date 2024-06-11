@@ -1,31 +1,51 @@
+<style EDM>
+/* Emarsys legacy */span.b{font-family: Arial; sans-serif; font-size: 13px;} 
+/* external links,BLUE font */span.c{color: rgb(0, 0, 255);} 
+/* emphasized WORDS font */span.d{font-family: Arial;font-size: 14px;} 
+/* emphasized LOGINID font */span.e{font-family: Arial, sans-serif;font-size: 14px;} 
+/* emphasized LOGINID font text-double underlined */span.f{border-bottom: 3px double;}
+/* EDM letter-head font  */span.g{font-size: 16px; font-family: Calibri; color: rgb(35, 31, 32);} 
+/* EDM letter-head font */span.h{font-size: 12px; font-family: Calibri; color: rgb(35, 31, 32);} 
+/* format for prize list */ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} 
+/* control size-of-gap of underline */a.a{text-decoration: underline; text-underline-offset: 3px;} 
+/* space between logo and first line */#gap {width: 100%; height: 10px; border: 0px transparent;background: transparent!important;} 
+/* space between text and border */p {margin: 16px;text-decoration: none;} 
+p.a{line-height:1.3}
+/* make IMAGE fit screen size */img {display: block; max-width: 100vw; height: auto; border:0} 
+/* make table fit screen size */table {width:100vw;} 
+body {color:#000000}
+</style>
+
+<style Howto>
 /* To hide anything use this div ID */							#hide {display:none;}
 /* space between logo and first line */							#gap10 {width: 100%; height: 10px; border: 0px transparent;background: transparent!important;}
 /* space between logo and first line */							#gap20 {width: 100%; height: 20px; border: 0px transparent;background: transparent!important;}
 /* space between logo and first line */							#gap40 {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;}
 /* Hyperlink no Underline Font Blue */							a {text-decoration:none;color: rgb(0, 0, 255);}
 /* Hyperlink with Underline Font Blue */							a.u {text-decoration: underline; text-underline-offset: 3px;color: rgb(0, 0, 255);}
-/* Body */							body {color:#000000;font-family:arial, sans-serif;margin:0;overflow:hidden;left:50%;}
-/* Horizontal line */							hr {border-top:dotted 1px;height:0px;background:#FFF;}
-/* IMG fit screen size */							img {display: block; max-width: 100vw; height: auto; border:0}
-/* IMG float */							img.a {float: right; margin: 0px 15px;}
-/* Space between text and border */							p {margin: 16px;text-decoration: none;line-height:1.3}
-/* Fine print */							p.tnc {font-family:Arial, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
-/* Return carriage */							br {display:block;content:'';margin-top:5;}
-/* DialogBox */							dialog {border-color:transparent;padding:0;margin:0;margin-left:5;left:35%;top:45%;transform:translate(-50%,-50%);}
-/* ExtraSmall Font */							em {font-style:normal;font-size: 15px;}
-/* Input box */							input {border:none;outline:none;font-size: medium;}
-/* Table: Fit screen size */							table {width:100vw; white-space: nowrap;width: 1%;margin-left: auto; margin-right: auto;}
-/* All table borders */							table, th, td {border:1px solid #FFF;}
-/* TR tag */							tr {line-height:22px;}
-/* TD tag */							td {text-align:left;padding:1px;vertical-align:middle;}
-/* Header Font: 16px */							span.g {font-size:16px; font-family:Calibri; color:rgb(35, 31, 32);}
-/* Header Font: 12pt */							span.h {font-size: 12pt; font-family: Calibri; color: rgb(35, 31, 32);}
-/* Font: 13px */							span.b {font-family: Arial, sans-serif; font-size: 13px;}
-/* Font: 14px */							span.a {font-family: Arial, sans-serif; font-size: 14px;}
-/* Font: 15px */							span.d {font-family: Arial, sans-serif; font-size: 15px;}
-/* Font: 16px */							span.e {font-family: Arial, sans-serif;font-size: 16px;}
-/* Font:  DBL underline */							span.f {border-bottom: 3px double;}
-/* Title: Large font */							span.g {font-size: 21px; font-family:Verdana, sans-serif;}
-/* Title: Small font */							span.h {font-size: 14px; font-family:Verdana, sans-serif;}
-/* H3 */							h3 {text-align:center;}
-/* Unorg List */							ul.a {display: inline-block; list-style-type: none; text-align: left;}
+/* Body */							      body {color:#000000;font-family:arial, sans-serif;margin:0;overflow:hidden;left:50%;}
+/* Horizontal line */					  hr {border-top:dotted 1px;height:0px;background:#FFF;}
+/* IMG fit screen size */				  img {display: block; max-width: 100vw; height: auto; border:0}
+/* IMG float */							  img.a {float: right; margin: 0px 15px;}
+/* Space between text and border */		  p {margin: 16px;text-decoration: none;line-height:1.3}
+/* Fine print */						  p.tnc {font-family:Arial, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
+/* Return carriage */					  br {display:block;content:'';margin-top:5;}
+/* DialogBox */							  dialog {border-color:transparent;padding:0;margin:0;margin-left:5;left:35%;top:45%;transform:translate(-50%,-50%);}
+/* ExtraSmall Font */					  em {font-style:normal;font-size: 15px;}
+/* Input box */							  input {border:none;outline:none;font-size: medium;}
+/* Table: Fit screen size */			  table {width:100vw; white-space: nowrap;width: 1%;margin-left: auto; margin-right: auto;}
+/* All table borders */					  table, th, td {border:1px solid #FFF;}
+/* TR tag */							  tr {line-height:22px;}
+/* TD tag */							  td {text-align:left;padding:1px;vertical-align:middle;}
+/* Header Font: 16px */					  span.g {font-size:16px; font-family:Calibri; color:rgb(35, 31, 32);}
+/* Header Font: 12pt */					  span.h {font-size: 12pt; font-family: Calibri; color: rgb(35, 31, 32);}
+/* Font: 13px */						  span.b {font-family: Arial, sans-serif; font-size: 13px;}
+/* Font: 14px */						  span.a {font-family: Arial, sans-serif; font-size: 14px;}
+/* Font: 15px */						  span.d {font-family: Arial, sans-serif; font-size: 15px;}
+/* Font: 16px */						  span.e {font-family: Arial, sans-serif;font-size: 16px;}
+/* Font:  DBL underline */				  span.f {border-bottom: 3px double;}
+/* Title: Large font */					  span.g {font-size: 21px; font-family:Verdana, sans-serif;}
+/* Title: Small font */					  span.h {font-size: 14px; font-family:Verdana, sans-serif;}
+/* H3 */						          h3 {text-align:center;}
+/* Unorg List */						  ul.a {display: inline-block; list-style-type: none; text-align: left;}
+</style>
