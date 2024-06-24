@@ -19,6 +19,25 @@
 /* background color */									body {color:#000000}
 </style>
 
+<style LuckyDraw>
+/* Emarsys legacy */            em,span.b{font-family: Arial; sans-serif; font-size: 13px;}
+/* external links,BLUE font */  span.c{color: rgb(0, 0, 255);}
+/* emphasized WORDS font */     span.d{font-family: Arial;font-size: 16px;}
+/* emphasized LOGINID font */   span.e{font-family: Arial, sans-serif;font-size: 14px;}
+/* text double-underlined */    span.f{border-bottom: 3px double;}
+/* EDM letter-head font  */     span.g{font-size: 17px; font-family: calibri;}
+/* EDM letter-head font */      span.h{font-size: 12px; font-family: Verdana; color: rgb(35, 31, 32);} 
+/* format for prize list */     ul.a{display: inline-block; list-style-type: none; text-align: left;font-family: Arial, sans-serif; font-size: 13px;} 
+/* control size-of-gap of underline */   a.a{text-decoration: underline; text-underline-offset: 3px;} 
+/* space between logo and first line */  #gap {width: 100%; height: 40px; border: 0px transparent;background: transparent!important;} 
+/* space between text and border */      p {margin: 16px;text-decoration: none;} 
+/* height within para */			     p.a{line-height:1.3}
+/* make IMAGE fit screen size */  img {display: block; max-width: 700px; height: auto; border:0} 
+/* make table fit screen size */  table {margin-left:16px;width:700px;max-width: 700px;} 
+/* for dotted HR line */          table.center {margin-left: auto;margin-right: auto;} 
+p.tnc {font-family:Arial, Helvetica, sans-serif; font-size:10px;font-style: italic;font-weight:bold;text-align:left;}
+</style>
+
 <style Howto>
 /* To hide anything use this div ID */							#hide {display:none;}
 /* space between logo and first line */							#gap10 {width: 100%; height: 10px; border: 0px transparent;background: transparent!important;}
